@@ -8,7 +8,7 @@ Clone the repository using e.g.
 ```
 git clone git@github.com:prottonicfusion/gist-puller.git
 ```
-and install all required packes by running either ``npm i`` or ``yarn``.
+and install all required packes by running either ``npm i`` or ``yarn``. Make sure to copy or rename the file `.env.example` to `.env` and include a valid GitHub access token and storage location.
 
 ## Usage
 
