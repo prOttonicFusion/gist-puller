@@ -1,2 +1,19 @@
 # gist-puller
-A tool for pulling all your gists from GitHub
+
+A quick and dirty tool for pulling all your [gists](https://gist.github.com/) from GitHub.
+
+## Installation
+
+Clone the repository using e.g.
+```
+git clone git@github.com:prottonicfusion/gist-puller.git
+```
+and install all required packes by running either ``npm i`` or ``yarn``.
+
+## Usage
+
+The script is executed by running 
+```
+node gistPuller.js
+```
+which pulls any previously clone gists and clones all new ones. Additionally, the gist IDs and descriptions are listed in `gist-list.json` for convenience.
