@@ -22,7 +22,7 @@ const options = {
   url: "https://api.github.com/gists",
   headers: {
     Accept: "application/vnd.github.v3+json",
-    Authorization: `token ${process.env.GITHUB_TOKEN}`,
+    Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
     "User-Agent": "gitPuller",
   },
 };
