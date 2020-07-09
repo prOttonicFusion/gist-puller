@@ -23,7 +23,7 @@ const options = {
   headers: {
     Accept: "application/vnd.github.v3+json",
     Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
-    "User-Agent": "gitPuller",
+    "User-Agent": "gistPuller",
   },
 };
 
