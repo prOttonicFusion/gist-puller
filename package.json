@@ -9,9 +9,9 @@
   "author": "prOttonicFusion",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "request": "^2.88.2",
     "shelljs": "^0.8.4"
   }
 }
