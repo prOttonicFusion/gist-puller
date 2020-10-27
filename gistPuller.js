@@ -1,7 +1,7 @@
-require("dotenv").config();
 const axios = require("axios");
 const fs = require("fs");
 const shell = require("shelljs");
+require("dotenv").config();
 
 const targetDir = process.env.SAVE_DIR;
 
@@ -69,7 +69,7 @@ axios({
     }
   })
   .catch((err) => {
-    console.log("There was an error with pulling your gists...")
+    console.log("There was an error with pulling your gists...");
     if (err.response) {
       console.log(err.response.data);
       console.log(err.response.status);
