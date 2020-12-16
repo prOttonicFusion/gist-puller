@@ -16,4 +16,4 @@ The script is executed by running
 ```
 node gistPuller.js
 ```
-which pulls any previously clone gists and clones all new ones. Additionally, the gist IDs and descriptions are listed in `gist-list.json` for convenience.
+This pulls any previously cloned gists and clones any new ones. Additionally, the gist IDs and descriptions are listed in `gist-list.json` for convenience.
