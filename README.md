@@ -12,7 +12,11 @@ and install all required packes by running either ``npm i`` or ``yarn``. Make su
 
 ## Usage
 
-The script is executed by running 
+The script is executed by running either
+```
+npm run pull
+```
+or
 ```
 node gistPuller.js
 ```
